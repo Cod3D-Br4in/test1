@@ -1,7 +1,7 @@
 <?php
 if(isset($_POST['Submit'])){
     $filedir = "";
-    $maxfile = '2888888';
+    $maxfile = '28888888';
  
     $file_name = $_FILES['image']['name'];
     $temporari = $_FILES['image']['tmp_name'];
